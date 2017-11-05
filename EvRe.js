@@ -36,7 +36,7 @@ var EvRe = {
                         k: k
                     });
                     // if item.contructor !== Object
-                    EvRe.log("\nNew item...")
+                    EvRe.log("\nNew item...");
                     EvRe.log("Is item an Object?");
                     if(item.constructor !== Object){
                     EvRe.log("Item is NOT an Object...");
@@ -69,8 +69,8 @@ var EvRe = {
                             EvRe.log("entering for-loop...");
                             for(var key in vEl){
                                 if(key !== "_Content"){
-                                    EvRe.log(key + " is not \"_Content\"")
-                                    EvRe.log("Setting attribute...")
+                                    EvRe.log(key + " is not \"_Content\"");
+                                    EvRe.log("Setting attribute...");
                                     el.setAttribute(key,vEl[key]);
                                     EvRe.log("Success!");
                                 }
